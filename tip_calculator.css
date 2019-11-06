@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    background-image: repeating-linear-gradient(to right, #40baf7 0%, #404cf7 0%, #42cef5 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#form {
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 30vh auto;
+    width: 50%;
+    border-radius: 3rem;
+}
+form {
+    display: inline-block;
+    padding: 30px;
+}
