@@ -12,6 +12,9 @@ html {
 body {
     background-image: repeating-linear-gradient(to right, #40baf7 0%, #404cf7 0%, #42cef5 100%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 7vh;
+    font-size: 2rem;
+    color: #40baf7;
 }
 
 #form {
@@ -24,4 +27,36 @@ body {
 form {
     display: inline-block;
     padding: 30px;
+    animation: moveInRight 1s ease-out;
+}
+
+button {
+    background-color: whitesmoke;
+    color: inherit;
+    font-family: inherit;
+    border: 2px solid #40baf7;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 10px;
+   
+}
+
+#bill {
+    border-radius: 10px;
+    color: #42cef5;
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+   
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
