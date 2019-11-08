@@ -22,12 +22,14 @@ body {
     text-align: center;
     margin: 30vh auto;
     width: 50%;
-    border-radius: 3rem;
+    
+    box-shadow: 5px 5px 2px grey;
+    animation: moveInRight 1s ease-out;
 }
 form {
     display: inline-block;
     padding: 30px;
-    animation: moveInRight 1s ease-out;
+    
 }
 
 button {
@@ -38,8 +40,17 @@ button {
     border-radius: 10px;
     font-size: 1rem;
     padding: 10px;
-    margin-top: 10px;
-   
+    margin: 15px;
+    /*animation: moveInRight 1s ease-out;*/
+    outline:none;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(2px);
 }
 
 #bill {
